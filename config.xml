@@ -33,11 +33,11 @@
        <!-- <context match="blockquote" label="Quotations"/>
         <context match="div[@class='l']"/>-->
         <!--2022-10-12 ebb: I'm modifying thee contexts to match the Elder Scrolls project code: -->
-        <context match="p[span[@class='group']]"
+        <context match="span[@class='group']"
             label="Groups"/>
-        <context match="p[span[@class='person']]"
+        <context match="span[@class='person']"
             label="People"/>
-        <context match="p[span[@class='location']]"
+        <context match="span[@class='location']"
             label="Locations"/>
         <context match="p[span]" label="Interesting Paragraphs"/>
         
